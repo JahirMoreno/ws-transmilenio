@@ -1,0 +1,100 @@
+{
+	"portales": [
+		{
+			"id": "1",
+			"nombre": "PORTAL NORTE"
+		},
+		{
+			"id": "2",
+			"nombre": "PORTAL SUBA"
+		},
+		{
+			"id": "3",
+			"nombre": "PORTAL 80"
+		},
+		{
+			"id": "4",
+			"nombre": "PORTAL EL DORADO"
+		},
+		{
+			"id": "5",
+			"nombre": "PORTAL SUR"
+		},
+		{
+			"id": "6",
+			"nombre": "PORTAL AMERICAS"
+		},
+		{
+			"id": "7",
+			"nombre": "PORTAL 20 DE JULIO"
+		},
+		{
+			"id": "8",
+			"nombre": "PORTAL USME"
+		},
+		{
+			"id": "9",
+			"nombre": "PORTAL TUNAL"
+		}
+	],
+	"rutas": [
+		{
+			"id": "1",
+			"nombre": "Portal Eldorado - Universidades ",
+			"estado": "COMPLEMENTARIA",
+			"longitud": "3",
+			"tipo_servicio": "NOCTURNO"
+		},
+		{
+			"id": "2",
+			"nombre": "Universidades - Portal Eldorado",
+			"estado": "URBANA",
+			"longitud": "6",
+			"tipo_servicio": "DIURNO"
+		},
+		{
+			"id": "3",
+			"nombre": "Portal 20 de Julio - Museo Nacional",
+			"estado": "ALIMENTADOR",
+			"longitud": "15",
+			"tipo_servicio": "DIURNO_PICO"
+		},
+		{
+			"id": "4",
+			"nombre": "Museo Nacional - Portal 20 de Julio",
+			"estado": "COMPLEMENTARIA",
+			"longitud": "16",
+			"tipo_servicio": "DIURNO_PICO_AM"
+		}
+	],
+	"troncales": [
+		{
+			"id": "1",
+			"nombre": "A CARACAS",
+			"tipo_servicio": "TRONCAL",
+			"origen": "HEROES",
+			"destino": "TERCER MILENIO"
+		},
+		{
+			"id": "2",
+			"nombre": "B AUTONORTE",
+			"tipo_servicio": "TRONCAL",
+			"origen": "TERMINAL",
+			"destino": "HEROES"
+		},
+		{
+			"id": "3",
+			"nombre": "C SUBA",
+			"tipo_servicio": "DUAL",
+			"origen": "PORTAL SUBA",
+			"destino": "ESCUELA MILITAR"
+		},
+		{
+			"id": "4",
+			"nombre": "D CL 80",
+			"tipo_servicio": "ALIMENTADOR",
+			"origen": "PORTAL 80",
+			"destino": "POLO"
+		}
+	]
+}
